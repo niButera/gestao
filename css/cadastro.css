@@ -1,0 +1,99 @@
+/* CORPO */
+body {
+    background-color: rgba(240, 240, 240, 1);
+    text-align: center;
+    margin-right: 6%;
+    margin-left: 6%;
+}
+
+/* BARRA PESQUISA*/
+#coren {
+    /* CAIXA */
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+    margin: 15px 0px 0px 0px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 16px;
+    padding-left: 55px;
+    border: 2px;
+    /* TEXTO */
+    font-family: "Quicksand";
+    font-weight: bold;
+    color: #000000;
+    font-size: 16px;
+    /* ICONS */
+    background-image: url('media/lupa.png');
+    background-position: 20px center;
+    background-repeat: no-repeat; 
+    background-size: 20px; 
+}
+
+#estado {
+    /* CAIXA */
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+    margin: 0px 10px 10px 10px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 14px;
+    border: 2px;
+    /* TEXTO */
+    font-family: "Quicksand";
+    font-weight: bold;
+    color: #777777;
+    font-size: 16px;
+}
+
+
+/* FONTES */
+h1 {
+    background: linear-gradient(to top,
+            rgba(10, 29, 62, 1),
+            rgba(80, 206, 255, 1));
+    -webkit-background-clip: text;
+    font-family: "Quicksand";
+    color: transparent;
+    text-align: center;
+    font-style: normal;
+    margin-bottom: 0%;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: "Quicksand";
+    margin: 0px 6% 0px 0px;
+    text-align: right;
+    font-size: 17px;
+}
+
+span {
+    font-family: "Quicksand";
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+}
+
+p {
+    font-family: "Quicksand";
+    text-align: center;
+    font-size: 17px;
+}
+
+a {
+    color: rgb(13, 44, 97);
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
