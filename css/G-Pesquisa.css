@@ -30,10 +30,11 @@ h1 {
 
 h2 {
     font-family: "Quicksand", sans-serif;
-    color: rgba(10, 29, 62, 1);
+    color: rgb(0, 0, 0);
     font-weight: bold;
-    margin-top: 18px;
+    margin-top: 0px;
     font-size: 24px;
+    margin-bottom: 0px;
 }
 
 h3 {
@@ -88,7 +89,7 @@ a {
     background-color: white;
     margin: 10px 0px 0px 0px;
     border-radius: 25px;
-    padding: 5px;
+    padding: 10px;
 }
 
 .book {
@@ -101,7 +102,7 @@ a {
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
     background-color: #fff;
     border-radius: 25px;
-    padding: 23px 0; 
+    padding: 20px 0; 
     border: 0px;
     width: 100%; 
     /* FONTE */
@@ -113,9 +114,9 @@ a {
     font-size: 24px;
     /* ICON */
     background-image: url('media/relogioH.png');
-    background-position: 10px center;
+    background-position: 15px center;
     background-repeat: no-repeat; 
     background-size: 50px; 
-    padding-left: 71px;
+    padding-left: 80px;
 }
 

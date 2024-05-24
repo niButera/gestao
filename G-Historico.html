@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/G-Historico.css">
     <link rel="stylesheet" href="css/G-BarraPesquisa.css">
     <link rel="stylesheet" href="css/icones.css">
+    <link rel="stylesheet" href="css/navbar.css">
 
     <!-- FONTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,30 +26,63 @@
     </div>
 
     <!-- INFO ENF -->
-    <div class="box2">
+    <div class="box">
         <div class="book">
             <img src="css/media/relogioH.png" id="book" width="55px">
             <div class="infos">
-            <h2>Histórico</h2>
-            <h5>Thayna Santos | 123.456-SP </h5>
+                <h2>Histórico</h2>
+                <h3>Thayna Santos | 123.456-SP </h3>
             </div>
         </div>
-        <div class="infos">
+        <div class="infos2">
             <div class="info-item">
-                <img src="css/media/predio.png" id="icon">
-                <h5>Andar 02</h5>
+                <img src="css/media/predio.png" id="InfoH">
+                <h4>Andar 02</h4>
             </div>
             <div class="info-item">
-                <img src="css/media/porta.png" id="icon">
-                <h5>Quarto 02</h5>
+                <img src="css/media/porta.png" id="InfoH">
+                <h4>Quarto 02</h4>
             </div>
         </div>
     </div>
 
-    <div class="bloco1">
-        <button class="hst" onclick="historico()">Histórico</button>
+    <div class="box">
+        <div class="infos2">
+            <div class="info-item">
+                <img src="css/media/cama.png" id="leito">
+                <h5>Leito 02</h5>
+            </div>
+            <div id="InfoLeito">
+                <h4>Data - 04/08/2024</h4>
+                <h4>Início - 10:15:24</h4>
+                <h4>Encerramento - 10:39:25</h4>
+                <h4>Motivo - Higiêne Pessoal</h4>
+            </div>
+        </div>
     </div>
-    <script src="js/G-historico.js"></script>
+
+    <div class="box">
+        <div class="infos2">
+            <div class="info-item">
+                <img src="css/media/cama.png" id="leito">
+                <h5>Leito 04</h5>
+            </div>
+            <div id="InfoLeito">
+                <h4>Data - 04/08/2024</h4>
+                <h4>Início - 11:00:00</h4>
+                <h4>Encerramento - 11:10:22</h4>
+                <h4>Motivo - Mudança de Decúbito</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <a href="homeC.php"><img src="pics/SetaAzul.png" id="Navbar" ></a>
+        <a href="historico.php"><img src="pics/history.png" class="icon" id="ClockIcon"></a>
+
+    </div>
+
+    <script src="js/G-Filtro.js"></script>
 </body>
 
 </html>
