@@ -30,9 +30,10 @@ h1 {
 
 h2 {
     font-family: "Quicksand", sans-serif;
-    color: rgba(10, 29, 62, 1);
+    color:  rgba(36, 96, 135, 1);
+    margin-bottom: 0px;
     font-weight: bold;
-    margin-top: 18px;
+    margin-top: 10px;
     font-size: 24px;
 }
 

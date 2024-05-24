@@ -1,11 +1,12 @@
 /* INFO ENF*/
 #book {
+    margin-right: 10px;
     margin-left: 5px;
 }
 
 #icon {
-    margin: 0px 15px 0px 24px;  
-    width: 20px;
+    margin: 0px 15px 0px 20px;  
+    width: 25px;
 }
 
 .infos {

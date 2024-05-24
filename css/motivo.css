@@ -193,13 +193,7 @@ a {
     padding: 15px 0; 
     border: 0px;
     width: 100%; 
-    /* FONTE */
-    font-family: "Quicksand", sans-serif;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    text-align: center; 
-    font-weight: bold;
-    font-size: 20px;
+
 }
 
 .mtvo2 {
