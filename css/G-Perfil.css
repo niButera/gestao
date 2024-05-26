@@ -7,7 +7,33 @@ body {
 }
 
 .bloco1 {
-    text-align: center;
+   text-align: start;
+   margin-top: 35px;
+   display: flex;
+}
+
+.bloco2 {
+    text-align: start;
+    margin-top: 25px;
+    display: flex;
+}
+
+.bloco3 {
+    text-align: start;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    display: flex;
+}
+
+.buttons {
+    text-align: start;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: flex;
+}
+
+#acao {
+    margin-top: 210px;
 }
 
 /* NAVBAR */
@@ -43,6 +69,7 @@ h1 {
     word-wrap: break-word;
     background-clip: text;
     font-weight: bold;
+    line-height: normal;
     margin-bottom: 0%;
     text-align: left;
     font-size: 30px;
@@ -52,29 +79,28 @@ h1 {
 h2 {
     font-family: "Quicksand", sans-serif;
     color: rgba(10, 29, 62, 1);
-    font-optical-sizing: auto;
     font-style: normal;
     font-weight: bold;
-    text-align: center;
-    font-size: 25px;
+    font-size: 28px;
 }
 
 h3 {
     font-family: "Quicksand", sans-serif;
-    color: rgba(39, 169, 219, 1);
-    font-weight: weight;
-    font-style: normal;
-    text-align: start;
-    line-height: 5px;
+    color: rgba(10, 29, 62, 1);
+    font-optical-sizing: auto;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 8px;
 }
 
 h4 {
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
-    font-weight: weight;
-    margin-bottom: px;
-    text-align: start;
-    line-height: 5%;
+    margin-bottom: 0px;
+    font-weight: bold;
+    margin-top: 16px;
+    font-size: 18px;
 }
 
 p {
@@ -85,42 +111,14 @@ p {
     margin: 0%;
 }
 
-a {
-    text-decoration: none;
-}
 
-/* CAIXA */
-.box {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    padding: 15px 25px 25px 25px;
+
+/* PERFIL */
+#aicon {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     background-color: white;
-    border-radius: 25px;
-}
-
-.box2 {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.336);
-    justify-content: space-between;
-    margin: 15px 0px 0px 0px;
-    padding: 15px 25px 15px;
-    border-radius: 25px;
-    align-items: center;
-    display: flex;
-}
-
-/* BOTÕES */
-.btn {
-    font-family: "Quicksand", sans-serif;
-    background: rgb(13, 36, 70);
-    padding: 15px 40% 15px 40%;
-    text-decoration: none;
-    border-radius: 15px;
-    text-align: center;
-    font-weight: bold;
-    color: white;
-}
-  
-#GrayClockIcon {
-    margin: 5px 5px 0px 0px;
-    width: 45px; 
+    border-radius: 25%;
+    margin-right: 15px;
+    padding: 13px;
+    width: 30px;
 }
