@@ -6,10 +6,6 @@ body {
     margin-left: 7%;
 }
 
-.content {
-    flex-direction: column;
-}
-
 /* FONTES */
 h1 {
     background: var(--gradiente-text,
@@ -18,8 +14,8 @@ h1 {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-family: "Quicksand";
-    word-wrap: normal;
     background-clip: text;
+    word-wrap: normal;
     font-weight: bold;
     margin-bottom: 0%;
     margin-top: 10px;
@@ -33,24 +29,23 @@ h2 {
     margin-bottom: 0px;
     font-weight: bold;
     font-size: 24px;
-    margin-bottom: 0px;
     margin-top: 5px;
 }
 
 h3 {
     font-family: "Quicksand", sans-serif;
     font-weight: normal;
+    margin-bottom: 5px;
     font-size: 15px;
     margin-top: 0px;
-    margin-bottom: 5px;
 }
 
 h4 {
     font-family: "Quicksand", sans-serif;
     font-weight: normal;
+    margin-bottom: 0px;
     font-size: 15px;
     margin-top: 0px;
-    margin-bottom: 0px;
 }
 
 h5 {
@@ -62,56 +57,117 @@ h5 {
     margin-top: 0px;
 }
 
-
 p {
     font-family: "Quicksand", sans-serif;
     font-weight: normal;
     font-size: 17px;
-    margin: 0%;
+    margin-top: 0px;
 }
 
 a {
+    font-family: "Quicksand", sans-serif;
+    color:  rgba(36, 96, 135, 1);
     text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 /* CAIXA */
 .box {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     background-color: white;
-    margin: 10px 0px 0px 0px;
     border-radius: 25px;
     padding: 10px;
+    margin: 10px;
+    flex: 1;
 }
 
+.box {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    box-sizing: border-box; 
+    border-radius: 25px;
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .box {
+        flex: 0 0 100%; 
+        margin: 5px 0; 
+    }
+}
+
+@media (min-width: 769px) {
+    .box {
+        flex: 0 0 calc(50% - 20px); 
+        margin: 10px 20px 10px 0px ; 
+    }
+}
+
+/* ALLIGN */
 .book {
     display: flex;
     align-items: center;
-}
-
-.hst {
-    /* CAIXA */ 
-    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
-    background-color: #fff;
-    border-radius: 25px;
-    padding: 20px 0; 
-    border: 0px;
-    width: 100%; 
-    /* FONTE */
-    font-family: "Quicksand", sans-serif;
-    color: rgba(10, 29, 62, 1);
-    text-align: start;
-    font-weight: bold;
-    margin-top: 18px;
-    font-size: 24px;
-    /* ICON */
-    background-image: url('media/relogioH.png');
-    background-position: 15px center;
-    background-repeat: no-repeat; 
-    background-size: 50px; 
-    padding-left: 80px;
 }
 
 #InfoLeito {
     padding: 5px 0px 0px 18px;
 }
 
+/* NAVBAR */
+.navbar {
+    box-sizing: border-box; 
+    position: fixed;
+    display: flex;
+    bottom: 3%;
+    right: 7%;
+    left: 7%;  
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex: 0 0 100%; 
+        margin: 5px 0; 
+    }
+}
+
+@media (min-width: 769px) {
+    .navbar {
+        flex: 0 0 calc(50% - 20px); 
+        margin: 10px 20px 10px 0px ; 
+    }
+}
+
+#Voltar {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin: 0px 10px 0px 0px;
+    border-radius: 25px;
+    padding: 15px;
+    border: 0px;
+    width: 40px;
+}
+
+.filtroBox {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    display: flex;
+    border: 0px;
+    flex: 1;
+}
+
+.container {
+    box-sizing: border-box; 
+    flex-wrap: wrap;
+    max-width: 100%; 
+    display: flex;
+}
+
+.button {
+    background-color: transparent;
+    cursor: pointer; 
+    border: 0px;
+}

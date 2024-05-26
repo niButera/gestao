@@ -56,9 +56,9 @@ h4 {
 h5 {
     font-family: "Quicksand", sans-serif;
     font-weight: normal;
+    margin-bottom: 5px;
     font-size: 15px;
     margin-top: 5px;
-    margin-bottom: 5px;
 }
 
 p {
@@ -110,7 +110,7 @@ a {
     color: rgba(10, 29, 62, 1);
     text-align: start;
     font-weight: bold;
-    margin-top: 18px;
+    margin-top: 10px;
     font-size: 24px;
     /* ICON */
     background-image: url('media/relogioH.png');
