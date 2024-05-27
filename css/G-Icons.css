@@ -43,6 +43,11 @@
     display: flex;
 }
 
+#grafico {
+    width: 300px;
+    justify-content: center;
+}
+
 /* QUARTOS BOX */
 #SetaBlueGo {
     margin-right: 5px;
