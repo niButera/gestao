@@ -10,12 +10,19 @@ function quartos() {
             <button class="btn3 botao-adicional">Leito 10</button>
         `;
         botoesContainer.insertAdjacentHTML('beforeend', botoesHTML);
+
+        // Remove a margem direita do último botão adicionado
+        var botoesAdicionais = document.querySelectorAll('.botao-adicional');
+        if (botoesAdicionais.length > 0) {
+            botoesAdicionais[botoesAdicionais.length - 1].style.marginRight = '0';
+        }
     } else {
         botoesAdicionados.forEach(function (botao) {
             botao.remove();
         });
     }
 }
+
 
 // BOTÃO CHAMADOS ANTECEDENTES
 document.getElementById("cmdA").addEventListener("click", function () {

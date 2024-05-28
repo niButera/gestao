@@ -97,6 +97,24 @@ a {
     font-size: 15px;
 }
 
+.botao-adicional {
+    margin: 0px;
+    justify-content: center;
+}
+/* Estilos para telas maiores */
+
+@media (min-width: 640px) {
+    .btn3 {
+        width: calc(33.33% - 15px); /* Calcula a largura das colunas com margem entre elas */
+        margin-right: 10px; /* Espaço entre as colunas */
+        margin-bottom: 10px;
+        flex-grow: 1; 
+        text-align: center;/* Faz com que os botões expandam para preencher o espaço restante */
+    }
+}
+
+
+
 .btn:active,
 .btn:focus {
     background-color: rgba(36, 96, 135, 1);

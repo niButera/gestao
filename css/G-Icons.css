@@ -4,6 +4,11 @@
     margin-left: 5px;
 }
 
+#ColorInfo {
+    margin-right: 5px;
+    width: 40px;
+}
+
 #F-Icon {
     margin-right: 10px;
     width: 40px;
@@ -44,8 +49,9 @@
 }
 
 #grafico {
-    width: 300px;
     justify-content: center;
+    align-items: center;
+    width: 250px;
 }
 
 /* QUARTOS BOX */
